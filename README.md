@@ -121,3 +121,20 @@
 8. https://memory-beta.fandom.com/wiki/MajQa%27 `majQa' was a Klingonese phrase meaning "well done"`
 9. `well done`
 
+## 11. ZASTAVA
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/11-zastava/
+2. >Božičkova zastava.
+3. >Božiček je designerjem poslal nalogo,da mu naredijo novo zastavo. Zastava mu ni všeč ima pa globlje sporočilo.
+4. Majhna slika: ![11.santa_flag.png](11/11.santa_flag.png) (4x1 pixel)
+5. Povečana: <img src="11/11.santa_flag.png" style="image-rendering:pixelated;width:400px;"/>
+6. 4 piksli, hex vrednosti RGB barv:
+   1. #6f6e6c
+   2. #796f6e
+   3. #65776f
+   4. #726c64
+7. združeno v `6f6e6c796f6e65776f726c64`
+8. hex decode [CyberChef recept](https://gchq.github.io/CyberChef/#recipe=From_Hex('Auto')&input=NmY2ZTZjNzk2ZjZlNjU3NzZmNzI2YzY0)
+9. `onlyoneworld`
+10. Alternativa: https://convertio.co/png-rgb/
+
