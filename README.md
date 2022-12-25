@@ -279,3 +279,25 @@
     božičnanoč
 6. `božičnanoč`
 
+## 19. ČUDNA DATOTEKA
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/19-cudna-datoteka/
+2. >Božiček ne ve kaj bi lahko naredil s to datoteko.
+3. >Božiček je na svojem računalniku našel to datoteko z čudno vsebino. Lahko ugotoviš kaj naredi ta datoteka?
+4. https://hekaton.mojedelo.com/wp-content/uploads/2022/12/19.file_.dat_.zip
+5. [19.file_.dat_.zip](19/19.file_.dat_.zip)
+6. ````befunge
+   v              v,_#@>#?$$,,,v
+   v0,+5+*34+*65+*87         <
+   @>27*+48*+            v
+         >@"code"
+         |,+2+9+9*99 <  <<
+   > 88*2+ >:#,_          ^
+         >"nuf">10/2|> "2d"
+                     > ^
+7. Brainfuck?
+8. https://en.wikipedia.org/wiki/Esoteric_programming_language#Befunge looks similar
+9. https://en.wikipedia.org/wiki/Befunge
+10. http://qiao.github.io/javascript-playground/visual-befunge93-interpreter/
+11. `Befunge`
+
