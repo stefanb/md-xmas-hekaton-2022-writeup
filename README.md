@@ -16,3 +16,16 @@
 4. https://en.wikipedia.org/wiki/Hash_collision
 5. `hash collision`
 
+## 2. SLIKA
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/naloga_2/
+2. >Božiček je prejel sliko in ne ve kaj bi z njo.
+3. > Božiček je dobil sporočilo, v katerem piše, da se njegovo pismo nahaja v sliki ssrd/its-xmas-time. Sam ne ve, kaj to je. Mu lahko pomagaš?
+4. https://hub.docker.com/r/ssrd/its-xmas-time
+5. `docker image save ssrd/its-xmas-time > its-xmas-time.tar`
+6. `tar xvf its-xmas-time.tar`
+7. `cat tar/3ac3e9ec79c0af263a197784768f9a0133ace6bf38a79b7431a457d972f2b7bd/var/local/main/.history`
+8. [.history file](2/tar/3ac3e9ec79c0af263a197784768f9a0133ace6bf38a79b7431a457d972f2b7bd/var/local/main/.history)
+9. flag:RaiseAGlassForEveryone
+10. `RaiseAGlassForEveryone`
+
