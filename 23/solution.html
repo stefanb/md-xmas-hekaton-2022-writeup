@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <link href="./favicon.ico" rel="icon" type="image/x-icon"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="width=1024, user-scalable=no" name="viewport"/>
+  <title>
+   Božičkova klepetalnica
+  </title>
+  <link href="./css/bootstrap.css" rel="stylesheet"/>
+  <link href="./css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div>
+   <h3>
+    Božičkova klepetalnica
+   </h3>
+   <p class="info">
+    <div class="container alert alert-success">
+     <strong>
+      Čestitke! Rešitev naloge je:
+      <br/>
+     </strong>
+     bozicno_drevo
+    </div>
+   </p>
+  </div>
+  <div class="container maze-container">
+   <div class="info">
+    Sporočilo 1:
+   </div>
+   <img id="output" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAA8CAIAAAB6hgcXAAABU0lEQVR4nO3WwQ3AIBDAsNL9dz5G4AmR7AnyzJqZDwAAeNt/OwAAADgz7gAAEGDcAQAgwLgDAECAcQcAgADjDgAAAcYdAAACjDsAAAQYdwAACDDuAAAQYNwBACDAuAMAQIBxBwCAAOMOAAABxh0AAAKMOwAABBh3AAAIMO4AABBg3AEAIMC4AwBAgHEHAIAA4w4AAAHGHQAAAow7AAAEGHcAAAgw7gAAEGDcAQAgwLgDAECAcQcAgADjDgAAAcYdAAACjDsAAAQYdwAACDDuAAAQYNwBACDAuAMAQIBxBwCAAOMOAAABxh0AAAKMOwAABBh3AAAIMO4AABBg3AEAIMC4AwBAgHEHAIAA4w4AAAHGHQAAAow7AAAEGHcAAAgw7gAAEGDcAQAgwLgDAECAcQcAgADjDgAAAcYdAAACjDsAAAQYdwAACDDuAAAQYNwBACBgA+3RA3VlJyUaAAAAAElFTkSuQmCC"/>
+   <div class="info top-margin">
+    Sporočilo 2:
+   </div>
+   <img id="output" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAA8CAIAAAB6hgcXAAABU0lEQVR4nO3WwQ3AIBDAsNL9dz5G4AmR7AnyzJqZDwAAeNt/OwAAADgz7gAAEGDcAQAgwLgDAECAcQcAgADjDgAAAcYdAAACjDsAAAQYdwAACDDuAAAQYNwBACDAuAMAQIBxBwCAAOMOAAABxh0AAAKMOwAABBh3AAAIMO4AABBg3AEAIMC4AwBAgHEHAIAA4w4AAAHGHQAAAow7AAAEGHcAAAgw7gAAEGDcAQAgwLgDAECAcQcAgADjDgAAAcYdAAACjDsAAAQYdwAACDDuAAAQYNwBACDAuAMAQIBxBwCAAOMOAAABxh0AAAKMOwAABBh3AAAIMO4AABBg3AEAIMC4AwBAgHEHAIAA4w4AAAHGHQAAAow7AAAEGHcAAAgw7gAAEGDcAQAgwLgDAECAcQcAgADjDgAAAcYdAAACjDsAAAQYdwAACDDuAAAQYNwBACBgA+3RA3VlJyUaAAAAAElFTkSuQmCC"/>
+  </div>
+  <div class="container">
+   <form action="index.php" id="sol" method="POST">
+    <div class="form-line">
+     <input autofocus="" class="form-control" id="solution" name="solution" placeholder="Rešitev" type="text" value="vpdujllhtzwbmmomwcegvjpdylkbqbidfsxmnzkgyyadpscxwkslsyageumtmindocrcdrrwlnzmnnisvlbssiuhbyqhqogiiydajetmxhpsijkuyxhsrdcaiurlepmrdbhsindzvlakhctigopkvtlipsltnygxpesvuwlxtcjrhdyvnnlqcyvdfcehbxnimyklqdsssbryvukvvodahmmiwlpxbggyhwfasutmbuawwpvxkhmgtuytpdxaqhgagc"/>
+     <input class="form-control" id="timer" readonly="" type="text"/>
+     <button class="btn btn-primary" id="send" type="submit">
+      Pošlji
+     </button>
+     <button class="btn btn-warning" id="reload" type="button">
+      Znova naloži
+     </button>
+    </div>
+   </form>
+  </div>
+  <script src="./js/jquery-3.1.1.min.js">
+  </script>
+  <script>
+   var time = 0;
+		var move = 25;
+		var totalPercent = 80;
+		var position = 0;
+		var x=0;
+		var speed = 1000*time/move;
+		var next = totalPercent/move;
+
+		$('#timer').val(time);
+
+		if (time>0)
+		{
+			timer = setInterval( function(){
+				if(time<=0){
+					endRun();
+				}
+				time-=1;
+				if(time<0)return;
+				$('#timer').val(time);
+			},1000);
+			timer
+		}
+		else
+		{
+			timer=undefined;
+			endRun();
+		}
+
+		function endRun(){
+			if(timer!=undefined)
+			{
+				clearInterval(timer);
+			}
+			$("#solution").prop("disabled","disabled");
+			$("#send").remove();
+			$("#reload").show();
+			$("#reload").click(e=>(
+				window.location.href='index.php'
+			));
+		}
+  </script>
+ </body>
+</html>

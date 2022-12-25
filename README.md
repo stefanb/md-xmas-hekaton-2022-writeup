@@ -340,3 +340,64 @@
 8. load html, check console
 9. `V3s3lB0zic`
 
+## 23. BOŽIČKOVA SPLETNA STRAN
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/23-bozickova-spletna-stran/
+2. >Lahko ugotoviš, kaj se skriva na Božičkovi spletni strani?
+3. >Božiček uporablja sledečo spletno stran https://pisi-bozicku.mojedelo.com/, da komunicira s pridnimi otroki. Da pa komunikacija ne poteka poplnoma javno, spletna stran uporablja šifriranje, ki ga otroci in Božiček znajo dešifrirati. Lahko tudi tebi uspe dešifrirati sporočilo in rešiti nalogo?
+   >
+   >Bonus točke za prvega, ki reši nalogo: 18
+   >Bonus točke za drugega, ki reši nalogo: 13
+   >Bonus točke za tretjega, ki reši nalogo: 8
+4. dve sliki:
+   1. binarna koda ![im1.png](23/im1.png)
+   2. A-Z ![im2.png](23/im2.png)
+5. Obe sliki 500 znakov:
+   * 12 vrstic po 40 znakov
+   * 1 vrstica po 20 znakov
+6. 45 sekund za rešitev, premalo časa za ročno reševanje
+7. OCR s pytesseract, težave z drugo sliko (namesto "J" prebere "JI" ipd), več poskusov...
+8. ````
+   513
+   1011111101110100111010101100010110111110
+   0000110110010100100111000011010000100000
+   0110101011101001101111111000001010101111
+   1010011110100010110111101010110011101111
+   1110001100000000001101101011101101001001
+   0000010101111110111010010100001101100111
+   0010111010100110110101110011001010011110
+   0111000011000100111000010100010000000111
+   0000100101001110010010000000110111001111
+   0101000000000010110101011000110101111110
+   0110001100001100100110111001001101001010
+   1011001111011110111010110001111111111110
+   01100011001101101101
+
+9. ````
+   513
+   VYPDUJLLYHTZUWRWBMMGOFMRWCPIDEPGVHJPDYLA
+   PXEOKBTQBWKIGDWYFQCSXMCFAONZDKFLGWGVIVMN
+   CYYJACDRPSCAXUXWKPSLSYAGEMORIVUFMOTYMIND
+   OZCODRCDRURXPRWVLNLZMNNEIQSEVLSCBSSCIUHB
+   YQHZRTQOMFYKYDEVYUGIDIYMDPAJEDTMLXBQHAVP
+   EAEDXSGINJKUYXHSSRDHCSFAGIKJYCUROLETSPMR
+   AKDUBHSJIZNTDDZIVLMACKHCPDTIGMGGOBXPKVTI
+   YLIPFUWOSLRPATHCNYGLPXGXBPKTPEODTXQMOSVU
+   YPOTWADLGXSCTCJMGRLYHRDINGPMDYLVNNXGLQCY
+   EVNDVENZNZZQDYFVCEXHKBMXNKCWIMSYYKLQDSSP
+   MSBWLXRYYNBFVUNUKPCVVRODAXUHZFMMMIOCWWLY
+   POXBXJGGYHSWFASDUTMOBTUAOGSWWPVXKHMGTUYG
+   DTPUMBDXQKAQQHGCAGLC
+
+10. 1/0 v prvem nizu pomeni če se upošteva črka iz drugega niza?
+11. ````python
+      for i in range(len(text2)):
+         if text1[i]=='1':
+            solution = solution + text2[i]
+
+12. [solve.py](23/solve.py)
+13. solution: `VPDUJLLHTZWBMMOMWCEGVJPDYLKBQBIDFSXMNZKGYYADPSCXWKSLSYAGEUMTMINDOCRCDRRWLNZMNNISVLBSSIUHBYQHQOGIIYDAJETMXHPSIJKUYXHSRDCAIURLEPMRDBHSINDZVLAKHCTIGOPKVTLIPSLTNYGXPESVUWLXTCJRHDYVNNLQCYVDFCEHBXNIMYKLQDSSSBRYVUKVVODAHMMIWLPXBGGYHWFASUTMBUAWWPVXKHMGTUYTPDXAQHGAGC`
+14. [solution.html](23/solution.html):
+15. > Čestitke! Rešitev naloge je:
+16. `bozicno_drevo`
+
