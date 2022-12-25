@@ -168,3 +168,55 @@
 7. Run C#: https://dotnetfiddle.net/EhUjnP
 8. `36`
 
+## 14. NAUGHTY LIST MANAGER
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/14-naughty-list-manager/
+2. >Božiček je pozabil geslo.
+3. >Božiček je pozabil svoje geslo NaughtyListManagerja, mu ga lahko pomagaš najti?
+4. [14.NaughtyListManager.zip](14/14.NaughtyListManager.zip)
+5. https://decompiler.dotnetsafer.com/ 
+6. drag&drop `NaughtyListManager.dll`
+7. ````C#
+      private static bool ValidatePassword(string p)
+      {
+         bool flag = string.IsNullOrEmpty(p);
+         bool result;
+         if (flag)
+         {
+            result = false;
+         }
+         else
+         {
+            string text = "JB1SNB1kaXodMEQo";
+            string text2 = "GqfAnI9NnC3L3yx1gNMn";
+            char[] array = new char[p.Length];
+            for (int i = 0; i < p.Length; i++)
+            {
+                  array[i] = (p.get_Chars(i) ^ text2.get_Chars(i % text2.Length));
+            }
+            string text3 = Convert.ToBase64String(Encoding.UTF8.GetBytes(array));
+            bool flag2 = text == text3;
+            result = flag2;
+         }
+         return result;
+      }
+8. XOR enkripcija (operator `^` v C#)
+9. ````C#
+      const string text = "JB1SNB1kaXodMEQo";
+      const string key = "GqfAnI9NnC3L3yx1gNMn";
+
+      string GetPassword()
+      {
+         var targetBytes=Convert.FromBase64String(text);
+         string pass="";
+         for (int i = 0; i < targetBytes.Length; i++)
+         {
+            pass += (char)((ushort)targetBytes[i] ^ (ushort)key[(i % key.Length)]);
+         }
+         return pass;
+      }
+
+10. Koda rešitve: [solve/Program.cs](14/solve/Program.cs)
+11. Poženi online na https://dotnetfiddle.net/mpgitu
+12. `cl4us-P4sswd`
+
