@@ -93,3 +93,12 @@
 11. eden izmed parametrov je geslo
 12. `P0rT_L1st3neR`
 
+## 8. PODPORA
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/8-podpora/
+2. >Božičkova podpora.
+3. >Božiček ima novo tehnično pomoč. Palčki so dobili sporočilo od stare babice v katerem piše 4 666 7777 33 66 444 222 2.
+4. SMS pisanje
+5. https://www.dcode.fr/multitap-abc-cipher
+6. `GOSENICA`
+
