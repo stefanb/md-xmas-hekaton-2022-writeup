@@ -220,3 +220,19 @@
 11. Poženi online na https://dotnetfiddle.net/mpgitu
 12. `cl4us-P4sswd`
 
+## 15. SKRITA LJUBEZEN
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/15-skrita-ljubezen/
+2. >Pismo skriti ljubezni.
+3. >Kolega Shamir je poslal sporočilo svoji večni ljubezni. Ker pa je to prepovedana ljubezen je moral sporočilo skriti. Ali lahko ugotoviš kaj ji je poslal?
+4. PDF: [15.skrito_pismo.pdf](15/15.skrito_pismo.pdf)
+5. `pdftotext 15.skrito_pismo.pdf`
+6. txt: [15.skrito_pismo.txt](15/15.skrito_pismo.txt)
+7. Stran 3 (normalno besedilo na sredini strani): `801539a72bc0c5a700ff2490f8e62be710b6053e3ede8859b44e7bcf364b12c0a7efab7576eef9a9528f2a5b7354c81689d794f74e59fb1f8b3eae60845259c2254b5ab3cfa7a342a85aaaac65d237f0134e861f6b812eb5eeae058500a4b3b767def9156b72d39f3742764497d5e6b49c5a0ce3d77d0c049620b15bdd4c5a76337`
+8. Stran 5 (belo besedilo na beli podlagi na sredini strani): `802404c3e3255a11b694051b30ada99feaab74ace5d56b7446b6d9be1cd94c9ecc30cc483056d946bc2c777181cbba30b27ce9dc9f36dc3957592d12c50eb14c61afefd33be4ecda6dfc6a49d2f69dff9e1699730abbb8312e6c99cc57130d0a0b3b4546c4d678363239bdb12a2ec694f9ac3ebdeb63cd43a6d36b1b93956179338`
+9. Stran 6 (drobno besedilo na cca sredini strani): `80313d64c8e59fb6b66b218bc84b8268fc8d76d2dc3be5ddf4b8a4612db25c5e6d8f618d4188263fe833588af09f71863d5b7bebd65f2176d817817243bcee1e43a4b250f2b349d8c3b6c7c5b524ac5f8be8185c67ea9014c7629e495127b87d6af5be53a884adf9035bcd25bbab261063a6341e3e1ec7d73633dc1049e93d5f059`
+10. Google https://www.google.com/search?q=Shamir+Secret+Sharing+Scheme
+11. http://passguardian.com/#reconstruct (ali https://iancoleman.io/shamir/ )
+12. "Veseli december ali zimske radosti. Geslo: Zimske radosti"
+13. `Zimske radosti`
+
