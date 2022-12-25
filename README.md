@@ -236,3 +236,18 @@
 12. "Veseli december ali zimske radosti. Geslo: Zimske radosti"
 13. `Zimske radosti`
 
+## 16. ČUDNI ODTIS KAČE
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/16-cudni-odtis-kace/ ????
+2. >Le zakaj bi se kača plazila po snegu?
+3. >Božiček je v snegu videl odtis raztegnjene kače, kar se mu je zdelo izredno nenavadno. Ali znaš pomagati Božičku rešiti problem kače?
+4. [16.python_in_the_snow.txt](16/16.python_in_the_snow.txt)
+5. 625 bitov, lahko matrika 25x25
+6. Na začetku nekaj daljših nizov, lahko za ob robu qr kode -> spirala (kača) od zunaj navznoter
+7. https://www.techiedelight.com/print-matrix-spiral-order/
+8. [solve.py](16/solve.py)
+9. screenshot, gimp, invert colors, save
+10. ![qr-koda.png](16/qr-koda.png)
+11. barcode scanner app ali online (https://www.onlinebarcodereader.com/ ali https://zxing.org/w/decode.jspx)
+12. `DancerPrancerRudolf`
+
