@@ -157,3 +157,14 @@
 6. HostMin
 7. `167.199.170.65`
 
+## 13. ILCODE
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/13-ilcode/
+2. >Čudna funkcija.
+3. >Božiček je na svojem računalniku našel to funkcijo. Zanima ga kaj vrača ta funkcija. Mu lahko pomagaš?
+4. IL koda: [jklgiefnkoekerg.txt](13/jklgiefnkoekerg.txt)
+5. IL -> C#: [sharplab](https://sharplab.io/#v2:DYLglsA0AmINQB8ACA2ABAQQLACgDeuAvrrkgOxoDCuataSAHLgTnfQJxoDOALgIY8wAYxps6AM2AB7ASgAsaALJoAFAEp6AZlG0WYugDppQvsC5owAOzA9VO/XQDaABgC6Fyz00AmNH0j2DmiOAIzuVl6+AEYBrEFO3u6SMjzyaACmsfFOmknSsgpCWdnBcnkpadDF2Y4ArO5RUlJQgQ6OKOUFrbRqJHH6llIADt1owNBCBmByBuaacqO8xgbOo+OT0wYoizzLIWsTBgBODGjeBrU7y94Hy6v9YkJSlgBux0wPbON7o0+v76NoGAXlcpJNtJ86N8wQYIUE/m9prcYftIbQhMAeAcNjN7vD0gBHUGTcyXNFjaDLUmjKJHcSmLjpWZjVFBQYjcnQyashxc2G/Z6IhbkgC2AFdgAL/idiczhWzhjSjszgDdOSEQKN2cjJnjeZSUaMAB5SI5St4y8lLGHmeUObWc7yazkGkloO36a1u7bk2kquG8zTOoJ88w+oJHdJYh7EHCx3BAA==)
+6. Print solution in [solve.cs](13/solve.cs)
+7. Run C#: https://dotnetfiddle.net/EhUjnP
+8. `36`
+
