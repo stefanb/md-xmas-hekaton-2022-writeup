@@ -66,3 +66,15 @@
 5. [CyberChef recept](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',false,true)AES_Decrypt(%7B'option':'Latin1','string':'IV9zVgsPSwuVbbYjgs5hGTrb7lG953aO'%7D,%7B'option':'Latin1','string':''%7D,'ECB','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D)From_Base64('A-Za-z0-9%2B/%3D',false,true)AES_Decrypt(%7B'option':'Latin1','string':'IV9zVgsPSwuVbbYjgs5hGTrb7lG953aO'%7D,%7B'option':'Latin1','string':''%7D,'ECB','Raw','Raw',%7B'option':'Hex','string':''%7D,%7B'option':'Hex','string':''%7D)&input=Rk1weHFQWVh2dGJQc2RHZk8ySldYdjI4bVBpUzdqUkh6b1NvY1RGZmtMdlpHNzZFYUI2RTc2MXFENE9Xd3J2bw)
 6. `Lepe praznike :D`
 
+## 6. ČUDNO PISMO
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/naloga_6/
+2. >Le kako bo Božiček lahko dostavil?
+3. >Božiček je dobil čudno pismo, kjer se pojavljajo določeni znaki. Ali mu lahko pomagaš razvozlati sporočilo?
+4. https://hekaton.mojedelo.com/wp-content/uploads/2022/12/6.nal_.QXNHYmsPmJsQfW.txt
+5. [6.nal_.QXNHYmsPmJsQfW.txt](6/6.nal_.QXNHYmsPmJsQfW.txt)
+6. Frequenčna analiza znakov: https://www.dcode.fr/frequency-analysis
+7. nekaj znakov se pojavi točno samo po enkrat (drugo 200-300 krat)
+8. unique znaki v originalnem vrstnem redu tvorijo
+9. `Fr3KveNc4_ZnAk0V`
+
