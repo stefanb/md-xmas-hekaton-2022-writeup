@@ -138,3 +138,22 @@
 9. `onlyoneworld`
 10. Alternativa: https://convertio.co/png-rgb/
 
+## 12. PRVI NASLOV
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/12/
+2. >Na kakšnem naslovu se nahaja pošta?
+3. >Pridni škratje so Božičku postavili spletni strežnik. Bushy je naredil IP naslovni blok `167.199.170.82/27`. Pepper sedaj ne najde kateri je lahko prvi IP, katerega lahko nastavi spletnemu strežniku. Ali mu lahko pomagaš?
+4. IP calculator https://jodies.de/ipcalc?host=167.199.170.82&mask1=27&mask2= or `ipcalc 167.199.170.82/27`
+5. ```
+    Address:   167.199.170.82        10100111.11000111.10101010.010 10010
+    Netmask:   255.255.255.224 = 27  11111111.11111111.11111111.111 00000
+    Wildcard:  0.0.0.31              00000000.00000000.00000000.000 11111
+    =>
+    Network:   167.199.170.64/27     10100111.11000111.10101010.010 00000 (Class B)
+    Broadcast: 167.199.170.95        10100111.11000111.10101010.010 11111
+    HostMin:   167.199.170.65        10100111.11000111.10101010.010 00001
+    HostMax:   167.199.170.94        10100111.11000111.10101010.010 11110
+    Hosts/Net: 30```
+6. HostMin
+7. `167.199.170.65`
+
