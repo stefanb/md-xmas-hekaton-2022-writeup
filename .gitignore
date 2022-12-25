@@ -1,3 +1,7 @@
 .*
 !.gitignore
 !.history
+
+bin/
+obj/
+venv/

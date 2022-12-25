@@ -29,3 +29,16 @@
 9. flag:RaiseAGlassForEveryone
 10. `RaiseAGlassForEveryone`
 
+## 3. PISMO BOŽIČKU
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/naloga_3/
+2. >Poredni škrati.
+3. > Božiček je po starem kanalu dobil sporočilo, ki pa so ga zlobni škratje spremenili.
+   >
+   > Božiček si razbija glavo ker ne ve kam mora dostaviti darila. Otroci bodo žalostni, v kolikor ne dobijo daril. Ali mu lahko pomagaš, kam more dostaviti del daril?
+   >
+   > Sporočilo: `1110 1 101 000 1110 111 010 000 1110 10 110 1011 11 0101 10 11111 11111`
+4. morse koda https://cryptii.com/
+5. [CyberChef Recept](https://gchq.github.io/CyberChef/#recipe=Find_/_Replace(%7B'option':'Simple%20string','string':'0'%7D,'-',true,false,false,false)Find_/_Replace(%7B'option':'Simple%20string','string':'1'%7D,'.',true,false,false,false)From_Morse_Code('Space','Line%20feed')&input=MTExMCAxIDEwMSAwMDAgMTExMCAxMTEgMDEwIDAwMCAxMTEwIDEwIDExMCAxMDExIDExIDAxMDEgMTAgMTExMTEgMTExMTEK)
+6. `verovskovaulica55`
+
