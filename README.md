@@ -102,3 +102,10 @@
 5. https://www.dcode.fr/multitap-abc-cipher
 6. `GOSENICA`
 
+## 9. VARNO SHRANJEVANJE GESEL V PODATKOVNI BAZI
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/9-varno-shranjevanje-gesel-v-podatkovni-bazi/
+2. >Postopek varnega shranjevanja gesel v podatkovni bazi.
+3. >Božiček je naročil izdelavo novega bloga, na katerem se bodo uporabniki lahko registrirali. S svojim kreiranim računom bodo lahko na blogu odgovarjali, všečkali in komunicirali z ostalimi blogerji. Varovanje uporabniških gesel ima zelo visoko prioriteto, zato gesla preden jih shranimo v bazo šifriramo z uporabo zgoščevalne funkcije (enosmerna funkcija). To storimo, zato, da v primeru vdora v bazo nepreidipravom otežimo razkrivanje gesel uporabnikov. Postopek shranjevanja gesel ob registraciji deluje tako, da takoj, ko informacijski sistem dobi podatek o registraciji šifrira geslo z uporabo enosmerne zgoščevalne funkcije. Vendar pri tem postopku obstaja ena specifična ranljivost. Predpostavimo, da imamo dva sistema, ki uporabljata isto zgoščevalno funkcijo in uporabnik v obeh sistemih uporabi isto geslo. Pri vdoru v enega od sistemov nepridipravi dobijo hash podatek gesla. Ker je hash uporabljen z enosmerno funkcijo pomeni, da nepridipravom ne preostane drugega, da uporabijo nad geslom napad mavrišne tabele (rainbow attack) ali pa brute force napad. Predpostavimo, da je nepridipravom uspelo razbiti hash in pridobiti geslo. To geslo lahko nato preprosto uporabijo v drugem informacijskem sistemu (pri katerem ni prišlo do vdora) in se lahko brez težav prijavi v račun svoje tarče. Da to preprečimo običajno geslu vsak informacijski sistem doda naključen podatek geslu preden nad njim uporabi zgoščevalno funkcijo. Ta dodan podatek tudi shrani, vendar ločeno z geslom. Ali veš kako se imenuje "začimba", ki je unikatna za vsakega uporabnika, katero dodamo geslu preden ga poženemo skozi zgoščevalno funkcijo? (Odgovori v angleščini)
+4. `salt`
+
