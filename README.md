@@ -333,3 +333,10 @@
    >https://geslo-za-sani.mojedelo.com/
 4. wget https://geslo-za-sani.mojedelo.com
 5. wget https://geslo-za-sani.mojedelo.com/js/xmasswordle.js
+6. change html to reference the .js file
+7. change `randomPassword()` javascript function:
+   * add `console.log(res)` to show password on console
+   * change `Date.now()` to `new Date('2022-12-24T03:24:00')`
+8. load html, check console
+9. `V3s3lB0zic`
+

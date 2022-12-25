@@ -10053,9 +10053,10 @@ function randomInt(n) {
 function randomPassword() {
 
     const offsetFromDate = new Date(2022, 0, 1)
-    const msOffset = Date.now() - offsetFromDate
+    const msOffset = new Date('2022-12-24T03:24:00') - offsetFromDate
     const dayOffset = msOffset / 1000 / 60 / 60 / 24
     const res = targetWords[Math.floor(dayOffset)]
+    console.log(res)
     return res;
 }
 
