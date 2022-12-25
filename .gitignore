@@ -1,7 +1,7 @@
 .*
 !.gitignore
 !.history
-
+__MACOSX
 bin/
 obj/
 venv/

@@ -78,3 +78,18 @@
 8. unique znaki v originalnem vrstnem redu tvorijo
 9. `Fr3KveNc4_ZnAk0V`
 
+## 7. NAPAKA PODATKOVNE BAZE
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/7-napaka-podatkovne-baze/
+2. >Božičkova podatkovna baza.
+3. >Škrat Krampus je Božičku spremenil povezavo na bazo. Božiček ne pride več do svojih sporočil. Kakšno geslo mora Božiček uporabiti, da lahko pride do sporočil?
+4. https://hekaton.mojedelo.com/wp-content/uploads/2022/11/7.redis_connect.zip
+5. [7.redis_connect.zip](7/7.redis_connect.zip)
+6. Go binary
+7. https://cujo.com/reverse-engineering-go-binaries-with-ghidra/
+8. ghidra
+9.  find "main.main"
+10. github.com/go-redis/redis/v8.NewClient();
+11. eden izmed parametrov je geslo
+12. `P0rT_L1st3neR`
+
