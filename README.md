@@ -262,3 +262,20 @@
 7. `belasnezinka` napačen odgovor, presledek?
 8. `BELA SNEZINKA`
 
+## 18. TA NOČ
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/18-ta-noc/ ????
+2. >V tej noči se zgodijo čudovite stvari.
+3. >Božičku je poredni škrat Gluggagaegir spremenil JavaScript kodo. Ali lahko pomagaš Božičku ugotoviti kaj koda izpiše?
+4. ![18/uhhudfipro.png](18/uhhudfipro.png)
+5. ```javascript
+   ('a'+ +'b'+'c')
+   'aNaNc'
+   ('b'+'o'+'ž'+'i'+'č'+ +'a'+'o'+'č')
+   'božičNaNoč'
+   ('b'+'o'+'ž'+'i'+'č'+ +'a'+'o'+'č').toLowerCase()
+   'božičnanoč'
+    console.log(('b'+'o'+'ž'+'i'+'č'+ +'a'+'o'+'č').toLowerCase())
+    božičnanoč
+6. `božičnanoč`
+
