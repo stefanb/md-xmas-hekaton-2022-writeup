@@ -301,3 +301,12 @@
 10. http://qiao.github.io/javascript-playground/visual-befunge93-interpreter/
 11. `Befunge`
 
+## 20. PODOMREŽJA
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/20-podomrezja/
+2. >Podomrežja.
+3. >Organizaciji je bil dodeljen blok `130.34.12.64/26`. Organizacija potrebuje `4` enako velika podomrežja. Kakšna je dolžina predpone enega podomrežja?
+4. https://www.site24x7.com/tools/ipv4-subnetcalculator.html address block `130.34.12.64/26`, number of subnets: `4` -> `130.34.12.64/28`
+5. Razlaga: za 4 enake subnete je v predponi potrebno fiksirati dodatna 2 bita, `26 + 2 = 28`
+6. `28`
+
