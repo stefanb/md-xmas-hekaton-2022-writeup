@@ -251,3 +251,14 @@
 11. barcode scanner app ali online (https://www.onlinebarcodereader.com/ ali https://zxing.org/w/decode.jspx)
 12. `DancerPrancerRudolf`
 
+## 17. SLANINA
+
+1. https://hekaton.mojedelo.com/hekaton/bozicni-it-hekaton/17-slanina/
+2. >Božiček je dobil slanino ampak jo ne zna pojesti.
+3. >Francis je Božičku poslal zakodirano sporočilo s pripisom »slanina«. Božiček si že predstavlja slasten sendvič in je čisto pozabil na pomembno sporočilo. `AAAABAABAAABABAAAAAA BAAABABBAAAABAABABBBABAAAABBAAABAABAAAAA`
+4. Slanina -> Bacon -> https://en.wikipedia.org/wiki/Bacon%27s_cipher
+5. https://www.dcode.fr/bacon-cipher
+6. `BELASNEZINKA` napačen odgovor, case sensitive?
+7. `belasnezinka` napačen odgovor, presledek?
+8. `BELA SNEZINKA`
+
